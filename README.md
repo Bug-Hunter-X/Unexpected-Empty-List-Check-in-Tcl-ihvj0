@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, error in Tcl when checking for empty lists. The `check_empty_list` procedure intends to verify if a list is empty. However, the direct comparison `$list == {}` may not always function correctly. The solution illustrates the proper way to check for empty lists in Tcl using the `llength` command.
